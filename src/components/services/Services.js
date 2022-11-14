@@ -18,7 +18,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid service__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Website <br /> Designer
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>
@@ -38,10 +38,10 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
                 onClick={() => toggleTab(0)}
               ></i>
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Website Designer</h3>
               <p className="services__modal-description">
                 Service with more than two years of experience. Providing
-                quality workto clients & companies.
+                quality work to clients & companies.
               </p>
 
               <ul className="services__modal-servies grid">
@@ -82,7 +82,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow service__icon"></i>
             <h3 className="services__title">
-              Ui/Ux <br /> Designer
+              Ui/Ux <br /> Developer
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
@@ -102,10 +102,10 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
                 onClick={() => toggleTab(0)}
               ></i>
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
+              <h3 className="services__modal-title">Ui/Ux Developer</h3>
               <p className="services__modal-description">
                 Service with more than two years of experience. Providing
-                quality workto clients & companies.
+                quality work to clients & companies.
               </p>
 
               <ul className="services__modal-servies grid">
@@ -146,7 +146,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit service__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Software <br /> Developer
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -166,10 +166,10 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
                 onClick={() => toggleTab(0)}
               ></i>
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Software Developer</h3>
               <p className="services__modal-description">
                 Service with more than two years of experience. Providing
-                quality workto clients & companies.
+                quality work to clients & companies.
               </p>
 
               <ul className="services__modal-servies grid">

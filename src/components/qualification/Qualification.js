@@ -50,10 +50,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">Spain Institute</span>
+                <h3 className="qualification__title">
+                  Web Design & FrontEnd Developement
+                </h3>
+                <span className="qualification__subtitle">ITC, Gurgaon</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2019 - 2020
                 </div>
               </div>
               <div>
@@ -69,20 +71,24 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">Spain Institute</span>
+                <h3 className="qualification__title">Graduation</h3>
+                <span className="qualification__subtitle">
+                  Periyar University, Salem (TN)
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2015 - 2018
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developement</h3>
-                <span className="qualification__subtitle">Spain Institute</span>
+                <h3 className="qualification__title">12th </h3>
+                <span className="qualification__subtitle">
+                  Jeevan Jyoti Sr. Sec. School (Mandola)
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2014 - 2015
                 </div>
               </div>
               <div>
@@ -98,10 +104,12 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">Spain Institute</span>
+                <h3 className="qualification__title">10th</h3>
+                <span className="qualification__subtitle">
+                  Govt. Sr. Sec. School (Mandola)
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2018
+                  <i className="uil uil-calendar-alt"></i> 2012 - 2013
                 </div>
               </div>
             </div>
@@ -116,12 +124,14 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">
+                  Software Frontend Developer
+                </h3>
                 <span className="qualification__subtitle">
-                  Microsoft - Spain
+                  Intigate Technologies Pvt. Ltd.
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
               </div>
               <div>
@@ -137,22 +147,26 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
+                <h3 className="qualification__title">
+                  Web Designer & Frontend Developer
+                </h3>
                 <span className="qualification__subtitle">
-                  Apple Inc - Spain
+                  Uclik Technologies Pvt. Ltd.
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
+                <h3 className="qualification__title">Web Designer Intern</h3>
+                <span className="qualification__subtitle">
+                  Mind Aviator Group
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2021
                 </div>
               </div>
               <div>

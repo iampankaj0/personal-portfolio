@@ -12,6 +12,8 @@
 
 .testimonial__img {
     width: 60px;
+    height: 60px;
+    object-fit: cover;
     border-radius: 3rem;
     margin-bottom: var(--mb-1);
 }
