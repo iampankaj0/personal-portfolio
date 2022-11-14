@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.f5d6e006.css",
-    "main.js": "/personal-portfolio/static/js/main.7a411ccd.js",
+    "main.css": "/personal-portfolio/static/css/main.7443b3a2.css",
+    "main.js": "/personal-portfolio/static/js/main.97809dcc.js",
     "static/media/profile.jpg": "/personal-portfolio/static/media/profile.6c83ff1f74ba5766c124.jpg",
-    "static/media/testimonial3.png": "/personal-portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
-    "static/media/testimonial2.png": "/personal-portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
-    "static/media/testimonial1.png": "/personal-portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "static/media/DeepakClient.jpg": "/personal-portfolio/static/media/DeepakClient.5ba7c0796c6aeebe7417.jpg",
+    "static/media/dillerClient.jpg": "/personal-portfolio/static/media/dillerClient.1975d626e33188d616ac.jpg",
+    "static/media/himanshuClient.jpg": "/personal-portfolio/static/media/himanshuClient.4981fb05bb97e5bb549f.jpg",
     "static/media/pankaj-cv.pdf": "/personal-portfolio/static/media/pankaj-cv.e83747cf513e0b21a7f1.pdf",
     "index.html": "/personal-portfolio/index.html",
-    "main.f5d6e006.css.map": "/personal-portfolio/static/css/main.f5d6e006.css.map",
-    "main.7a411ccd.js.map": "/personal-portfolio/static/js/main.7a411ccd.js.map"
+    "main.7443b3a2.css.map": "/personal-portfolio/static/css/main.7443b3a2.css.map",
+    "main.97809dcc.js.map": "/personal-portfolio/static/js/main.97809dcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5d6e006.css",
-    "static/js/main.7a411ccd.js"
+    "static/css/main.7443b3a2.css",
+    "static/js/main.97809dcc.js"
   ]
 }
