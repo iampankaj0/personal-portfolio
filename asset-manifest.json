@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.7443b3a2.css",
-    "main.js": "/personal-portfolio/static/js/main.478633d8.js",
+    "main.js": "/personal-portfolio/static/js/main.62c669d0.js",
     "static/media/profile.jpg": "/personal-portfolio/static/media/profile.6c83ff1f74ba5766c124.jpg",
     "static/media/DeepakClient.jpg": "/personal-portfolio/static/media/DeepakClient.5ba7c0796c6aeebe7417.jpg",
     "static/media/dillerClient.jpg": "/personal-portfolio/static/media/dillerClient.1975d626e33188d616ac.jpg",
@@ -11,10 +11,10 @@
     "static/media/pankaj-cv.pdf": "/personal-portfolio/static/media/pankaj-cv.e83747cf513e0b21a7f1.pdf",
     "index.html": "/personal-portfolio/index.html",
     "main.7443b3a2.css.map": "/personal-portfolio/static/css/main.7443b3a2.css.map",
-    "main.478633d8.js.map": "/personal-portfolio/static/js/main.478633d8.js.map"
+    "main.62c669d0.js.map": "/personal-portfolio/static/js/main.62c669d0.js.map"
   },
   "entrypoints": [
     "static/css/main.7443b3a2.css",
-    "static/js/main.478633d8.js"
+    "static/js/main.62c669d0.js"
   ]
 }
