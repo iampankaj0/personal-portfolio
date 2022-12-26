@@ -1,9 +1,10 @@
 import React from "react";
+import {motion} from "framer-motion"
 
 const Data = () => {
   return (
     <div className="home__data">
-      <h1 className="home__title">
+      <motion.h1 className="home__title" initial={{ x: "-100%" }} whileInView={{ x: "0" }}>
         Pankaj Yadav
         <svg
           width="36"
@@ -54,14 +55,14 @@ const Data = () => {
             fill="#EBA352"
           ></path>
         </svg>
-      </h1>
+      </motion.h1>
       <h3 className="home__subtitle">Software Developer</h3>
       <p className="home__description">
         I'm creative Software Developer based in India, and I'm very passionate and
         dedicated to my work.
       </p>
 
-      <a href="#contact" className="button button--flex">
+      <motion.a href="#contact" className="button button--flex" initial={{ x: "100%" }} whileInView={{ x: "0" }}>
         Say Hello
         <svg
           className="button__icon"
@@ -80,7 +81,7 @@ const Data = () => {
             fill="var(--container-color)"
           ></path>
         </svg>
-      </a>
+      </motion.a>
     </div>
   );
 };

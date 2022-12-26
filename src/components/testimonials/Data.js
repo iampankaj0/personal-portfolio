@@ -2,6 +2,8 @@ import Image1 from "../../assets/DeepakClient.jpg";
 import Image2 from "../../assets/himanshuClient.jpg";
 import Image3 from "../../assets/dillerClient.jpg";
 import Image4 from "../../assets/pankajClient.jpg";
+import Image5 from "../../assets/testimonial1.png";
+import Image6 from "../../assets/testimonial2.png";
 
 export const Data = [
   {
@@ -31,5 +33,19 @@ export const Data = [
     title: "Pankaj",
     description:
       "You are rock! This is simply unbelievable! Man, You are capable of doing much better than I thought!",
+  },
+  {
+    id: 5,
+    image: Image5,
+    title: "St. Jonish",
+    description:
+    "A really good job, all aspects of the project were  followed step by step and with good results.",
+  },
+  {
+    id: 6,
+    image: Image6,
+    title: "Meera Qureshi",
+    description:
+    "His work was worth a fortune to my company. Really good and he has completely surpassed our expectations.",
   },
 ];
