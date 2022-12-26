@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./services.scss";
-import {motion} from "framer-motion"
 
 const Services = () => {
   const [toggleState, settoggleState] = useState(0);
@@ -15,7 +14,7 @@ const Services = () => {
       <span className="section__subtitle">What I Offer</span>
 
       <div className="services__container container grid">
-        <motion.div className="services__content" initial={{ x: "-100%" }} whileInView={{ x: "0" }}>
+        <div className="services__content">
           <div>
             <i className="uil uil-web-grid service__icon"></i>
             <h3 className="services__title">
@@ -77,9 +76,9 @@ const Services = () => {
               </ul>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div className="services__content" initial={{ y: "-100%" }} whileInView={{ y: "0" }}>
+        <div className="services__content">
           <div>
             <i className="uil uil-arrow service__icon"></i>
             <h3 className="services__title">
@@ -141,9 +140,9 @@ const Services = () => {
               </ul>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div className="services__content" initial={{ x: "100%" }} whileInView={{ x: "0" }}>
+        <div className="services__content">
           <div>
             <i className="uil uil-edit service__icon"></i>
             <h3 className="services__title">
@@ -205,7 +204,7 @@ const Services = () => {
               </ul>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

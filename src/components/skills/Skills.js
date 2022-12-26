@@ -2,7 +2,6 @@ import React from "react";
 import Backend from "./Backend";
 import Frontend from "./Frontend";
 import "./skills.scss";
-import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
@@ -11,12 +10,8 @@ const Skills = () => {
       <span className="section__subtitle">My Technical Level</span>
 
       <div className="skills__container container grid">
-        <motion.div initial={{ x: "-100%" }} whileInView={{ x: "0" }}>
-          <Frontend />
-        </motion.div>
-        <motion.div initial={{ x: "100%" }} whileInView={{ x: "0" }}>
-          <Backend />
-        </motion.div>
+        <Frontend />
+        <Backend />
       </div>
     </section>
   );

@@ -1,6 +1,5 @@
 import React from "react";
 import "./contact.scss";
-import {motion} from "framer-motion"
 
 const Contact = () => {
   return (
@@ -9,7 +8,7 @@ const Contact = () => {
       <span className="section__subtitle">Contact Me</span>
 
       <div className="contact__container container grid">
-        <motion.div className="contact__content" initial={{ x: "-100%" }} whileInView={{ x: "0" }}>
+        <div className="contact__content">
           <h3 className="contact__title">Talk to me</h3>
 
           <div className="contact__info">
@@ -64,9 +63,9 @@ const Contact = () => {
               </a>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div className="contact__content" initial={{ x: "100%" }} whileInView={{ x: "0" }}>
+        <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
 
           <form className="contact__form">
@@ -122,7 +121,7 @@ const Contact = () => {
               </svg>
             </button>
           </form>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

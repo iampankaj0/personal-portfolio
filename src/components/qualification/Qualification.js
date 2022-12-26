@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./qualification.scss";
-import {motion} from "framer-motion"
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -50,7 +49,7 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
-              <motion.div initial={{ x: "-100%" }} whileInView={{ x: "0" }}>
+              <div>
                 <h3 className="qualification__title">
                   Web Design & FrontEnd Developement
                 </h3>
@@ -58,7 +57,7 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2019 - 2020
                 </div>
-              </motion.div>
+              </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
@@ -71,7 +70,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-              <motion.div initial={{ x: "100%" }} whileInView={{ x: "0" }}>
+              <div>
                 <h3 className="qualification__title">Graduation</h3>
                 <span className="qualification__subtitle">
                   Periyar University, Salem (TN)
@@ -79,11 +78,11 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2015 - 2018
                 </div>
-              </motion.div>
+              </div>
             </div>
 
             <div className="qualification__data">
-              <motion.div initial={{ x: "-100%" }} whileInView={{ x: "0" }}>
+              <div>
                 <h3 className="qualification__title">12th </h3>
                 <span className="qualification__subtitle">
                   Jeevan Jyoti Sr. Sec. School (Mandola)
@@ -91,7 +90,7 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2014 - 2015
                 </div>
-              </motion.div>
+              </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
@@ -104,7 +103,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-              <motion.div initial={{ x: "100%" }} whileInView={{ x: "0" }}>
+              <div>
                 <h3 className="qualification__title">10th</h3>
                 <span className="qualification__subtitle">
                   Govt. Sr. Sec. School (Mandola)
@@ -112,7 +111,7 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2012 - 2013
                 </div>
-              </motion.div>
+              </div>
             </div>
           </div>
 
@@ -124,7 +123,7 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
-              <motion.div initial={{ x: "-100%" }} whileInView={{ x: "0" }}>
+              <div>
                 <h3 className="qualification__title">
                   Software Frontend Developer
                 </h3>
@@ -134,7 +133,7 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
-              </motion.div>
+              </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
@@ -147,7 +146,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-              <motion.div initial={{ x: "100%" }} whileInView={{ x: "0" }}>
+              <div>
                 <h3 className="qualification__title">
                   Web Designer & Frontend Developer
                 </h3>
@@ -157,11 +156,11 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
-              </motion.div>
+              </div>
             </div>
 
             <div className="qualification__data">
-              <motion.div initial={{ x: "-100%" }} whileInView={{ x: "0" }}>
+              <div>
                 <h3 className="qualification__title">Web Designer Intern</h3>
                 <span className="qualification__subtitle">
                   Mind Aviator Group
@@ -169,7 +168,7 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2021 - 2021
                 </div>
-              </motion.div>
+              </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>

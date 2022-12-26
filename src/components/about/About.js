@@ -3,7 +3,6 @@ import "./about.scss";
 import aboutImg from "../../assets/profile.jpg";
 import Info from "./Info.js";
 import cv from "../../assets/pankaj-cv.pdf";
-import {motion} from "framer-motion"
 
 const About = () => {
   return (
@@ -12,9 +11,9 @@ const About = () => {
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
-        <motion.img src={aboutImg} alt="" className="about__img" initial={{ x: "-100%" }} whileInView={{ x: "0" }}/>
+        <img src={aboutImg} alt="" className="about__img" />
 
-        <motion.div className="about__data" initial={{ x: "100%" }} whileInView={{ x: "0" }}>
+        <div className="about__data">
           <Info />
 
           <p className="about__description">
@@ -51,7 +50,7 @@ const About = () => {
               ></path>
             </svg>
           </a>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
