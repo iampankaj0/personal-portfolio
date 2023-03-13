@@ -1,10 +1,14 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 const Data = () => {
   return (
     <div className="home__data">
-      <motion.h1 className="home__title" initial={{ x: "-100%" }} whileInView={{ x: "0" }}>
+      <motion.h1
+        className="home__title"
+        initial={{ x: "-100%" }}
+        whileInView={{ x: "0" }}
+      >
         Pankaj Yadav
         <svg
           width="36"
@@ -58,11 +62,16 @@ const Data = () => {
       </motion.h1>
       <h3 className="home__subtitle">Software Developer</h3>
       <p className="home__description">
-        I'm creative Software Developer based in India, and I'm very passionate and
-        dedicated to my work.
+        I'm creative Software Developer based in India, and I'm very passionate
+        and dedicated to my work.
       </p>
 
-      <motion.a href="#contact" className="button button--flex" initial={{ x: "100%" }} whileInView={{ x: "0" }}>
+      <motion.a
+        href="#contact"
+        className="button button--flex"
+        initial={{ x: "100%" }}
+        whileInView={{ x: "0" }}
+      >
         Say Hello
         <svg
           className="button__icon"

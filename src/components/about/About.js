@@ -2,7 +2,7 @@ import React from "react";
 import "./about.scss";
 import aboutImg from "../../assets/profile.jpg";
 import Info from "./Info.js";
-import cv from "../../assets/pankaj-cv.pdf";
+import cv from "../../assets/Resume.pdf";
 
 const About = () => {
   return (
@@ -17,9 +17,9 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I created and develope web apps with UI / UX user interface.
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            Frontend developer, I created and develope web apps with UI / UX
+            user interface. I have years of experience and many clients are
+            happy with the projects carried out.
           </p>
 
           <a href={cv} download="" className="button button--flex">

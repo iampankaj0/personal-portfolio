@@ -1,7 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.scss";
 
 const Contact = () => {
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  // Destructure all Input fields value
+  const { name, email, message } = data;
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setData({
+      ...data,
+      [name]: value,
+    });
+  };
+
+  const handleSendMessage = (e) => {
+    e.preventDefault();
+    if (name && email && message) {
+      alert("Hii " + name);
+    } else {
+      alert("Hii User");
+    }
+  };
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get In Touch</h2>
@@ -33,7 +59,7 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">WhatsApp</h3>
-              <span className="contact__card-data">999-136-xxxx</span>
+              <span className="contact__card-data">701-553-9xxx</span>
 
               <a
                 href="https://api.whatsapp.com/send?phone=7015539***&text=hello, Pankaj Yadav!"
@@ -72,6 +98,8 @@ const Contact = () => {
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
+                onChange={handleInputChange}
+                value={name}
                 type="text"
                 name="name"
                 className="contact__form-input"
@@ -82,6 +110,8 @@ const Contact = () => {
             <div className="contact__form-div">
               <label className="contact__form-tag">Mail</label>
               <input
+                onChange={handleInputChange}
+                value={email}
                 type="email"
                 name="email"
                 className="contact__form-input"
@@ -90,17 +120,22 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Message</label>
               <textarea
-                name="project"
+                onChange={handleInputChange}
+                value={message}
+                name="message"
                 className="contact__form-input"
-                placeholder="Write your project"
+                placeholder="Write your query"
                 cols="30"
                 rows="10"
               />
             </div>
 
-            <button className="button button--flex">
+            <button
+              onClick={(e) => handleSendMessage(e)}
+              className="button button--flex"
+            >
               Send Message
               <svg
                 className="button__icon"

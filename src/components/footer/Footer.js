@@ -26,13 +26,31 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social">
-          <a href="#!" className="footer__social-link" target="_blank">
+          <a
+            href="https://www.facebook.com/iampankaj0"
+            rel="noreferrer"
+            title="Facebook"
+            className="footer__social-link"
+            target="_blank"
+          >
             <i className="bx bxl-facebook"></i>
           </a>
-          <a href="#!" className="footer__social-link" target="_blank">
+          <a
+            href="https://instagram.com/_iampankaj"
+            target="_blank"
+            rel="noreferrer"
+            title="Instagram"
+            className="footer__social-link"
+          >
             <i className="bx bxl-instagram"></i>
           </a>
-          <a href="#!" className="footer__social-link" target="_blank">
+          <a
+            href="https://twitter.com/iampankaj0"
+            target="_blank"
+            rel="noreferrer"
+            title="Twitter"
+            className="footer__social-link"
+          >
             <i className="bx bxl-twitter"></i>
           </a>
         </div>
