@@ -22,9 +22,14 @@ const Contact = () => {
   const handleSendMessage = (e) => {
     e.preventDefault();
     if (name && email && message) {
-      alert("Hii " + name);
+      alert("Hii " + name + " your message has been sent.");
+      setData({
+        name: "",
+        email: "",
+        message: "",
+      });
     } else {
-      alert("Hii User");
+      alert("All Fields are required.");
     }
   };
 
@@ -108,7 +113,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div">
-              <label className="contact__form-tag">Mail</label>
+              <label className="contact__form-tag">E-Mail</label>
               <input
                 onChange={handleInputChange}
                 value={email}
